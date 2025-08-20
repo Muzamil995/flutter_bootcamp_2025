@@ -1,13 +1,21 @@
 import 'package:august_bootcamp/session_five/session_five.dart';
 import 'package:august_bootcamp/session_five/session_five_three.dart';
 import 'package:august_bootcamp/session_four/session_four.dart';
+import 'package:august_bootcamp/session_six/session_six_signup.dart';
 import 'package:august_bootcamp/session_three/session_three.dart';
 import 'package:august_bootcamp/session_two/session_two.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(
-      MyApp());
+import 'firebase_options.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  runApp(MyApp());
+
 }
 
 class MyApp extends StatefulWidget {
@@ -22,7 +30,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "flutter bootcamp ",
-      home: SessionFiveThree()
+      home: SessionSixSignup ()
       // Scaffold(
       //   appBar: AppBar(
       //     title: Text("Flutter Bootcamp 2025",
