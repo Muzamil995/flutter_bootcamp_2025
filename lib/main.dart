@@ -1,6 +1,7 @@
 import 'package:august_bootcamp/session_five/session_five.dart';
 import 'package:august_bootcamp/session_five/session_five_three.dart';
 import 'package:august_bootcamp/session_four/session_four.dart';
+import 'package:august_bootcamp/session_seven/view/sigin_view.dart';
 import 'package:august_bootcamp/session_six/session_six_signup.dart';
 import 'package:august_bootcamp/session_three/session_three.dart';
 import 'package:august_bootcamp/session_two/session_two.dart';
@@ -30,7 +31,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "flutter bootcamp ",
-      home: SessionSixSignup ()
+      home: SiginView ()
       // Scaffold(
       //   appBar: AppBar(
       //     title: Text("Flutter Bootcamp 2025",
