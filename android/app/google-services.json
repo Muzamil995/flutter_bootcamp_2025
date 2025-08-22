@@ -12,7 +12,20 @@
           "package_name": "com.example.august_bootcamp"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "237743360167-9m3e08v9nahg5ma8avf9mtp0qh6eoug2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.august_bootcamp",
+            "certificate_hash": "db708ca9f7cd6e0b19a608a1a9ad3a00127dd6d8"
+          }
+        },
+        {
+          "client_id": "237743360167-j46r8doqg99o7ja3qcm2f9o0og11j4ql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCCJaA4iJqtP_41vw7N0H8Z7PgjoGJ6OYs"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237743360167-j46r8doqg99o7ja3qcm2f9o0og11j4ql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
